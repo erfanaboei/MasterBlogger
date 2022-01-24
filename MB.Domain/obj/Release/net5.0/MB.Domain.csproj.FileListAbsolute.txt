@@ -1,0 +1,12 @@
+C:\Application\MasterBlogger\MB.Domain\bin\Release\net5.0\MB.Domain.deps.json
+C:\Application\MasterBlogger\MB.Domain\bin\Release\net5.0\MB.Domain.dll
+C:\Application\MasterBlogger\MB.Domain\bin\Release\net5.0\ref\MB.Domain.dll
+C:\Application\MasterBlogger\MB.Domain\bin\Release\net5.0\MB.Domain.pdb
+C:\Application\MasterBlogger\MB.Domain\obj\Release\net5.0\MB.Domain.csproj.AssemblyReference.cache
+C:\Application\MasterBlogger\MB.Domain\obj\Release\net5.0\MB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Application\MasterBlogger\MB.Domain\obj\Release\net5.0\MB.Domain.AssemblyInfoInputs.cache
+C:\Application\MasterBlogger\MB.Domain\obj\Release\net5.0\MB.Domain.AssemblyInfo.cs
+C:\Application\MasterBlogger\MB.Domain\obj\Release\net5.0\MB.Domain.csproj.CoreCompileInputs.cache
+C:\Application\MasterBlogger\MB.Domain\obj\Release\net5.0\MB.Domain.dll
+C:\Application\MasterBlogger\MB.Domain\obj\Release\net5.0\ref\MB.Domain.dll
+C:\Application\MasterBlogger\MB.Domain\obj\Release\net5.0\MB.Domain.pdb

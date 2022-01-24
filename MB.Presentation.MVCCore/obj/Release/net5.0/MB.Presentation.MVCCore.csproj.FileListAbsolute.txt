@@ -1,0 +1,8 @@
+C:\Application\MasterBlogger\MB.Presentation.MVCCore\obj\Release\net5.0\MB.Presentation.MVCCore.csproj.AssemblyReference.cache
+C:\Application\MasterBlogger\MB.Presentation.MVCCore\obj\Release\net5.0\MB.Presentation.MVCCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Application\MasterBlogger\MB.Presentation.MVCCore\obj\Release\net5.0\MB.Presentation.MVCCore.AssemblyInfoInputs.cache
+C:\Application\MasterBlogger\MB.Presentation.MVCCore\obj\Release\net5.0\MB.Presentation.MVCCore.AssemblyInfo.cs
+C:\Application\MasterBlogger\MB.Presentation.MVCCore\obj\Release\net5.0\MB.Presentation.MVCCore.csproj.CoreCompileInputs.cache
+C:\Application\MasterBlogger\MB.Presentation.MVCCore\obj\Release\net5.0\MB.Presentation.MVCCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Application\MasterBlogger\MB.Presentation.MVCCore\obj\Release\net5.0\MB.Presentation.MVCCore.RazorAssemblyInfo.cache
+C:\Application\MasterBlogger\MB.Presentation.MVCCore\obj\Release\net5.0\MB.Presentation.MVCCore.RazorAssemblyInfo.cs

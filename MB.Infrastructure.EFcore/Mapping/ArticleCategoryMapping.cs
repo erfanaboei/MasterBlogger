@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MB.Domain.ArticleCategoryAgg;
-using Microsoft.Data.SqlClient;
+﻿using MB.Domain.ArticleCategoryAgg;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -21,6 +15,7 @@ namespace MB.Infrastructure.EFcore.Mapping
             builder.Property(x => x.IsDeleted);
             builder.Property(x => x.CreationTime);
 
+            builder.HasMany(x => x.Articles).WithOne(x => x.ArticleCategory).HasForeignKey(x => x.ArticleCategoryId);
         }
     }
 }

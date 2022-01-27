@@ -41,11 +41,16 @@ namespace MB.Infrastructure.EFcore.Repositories
         {
             _context.Articles.Add(entity);
             Save();
-        }
+        }   
 
         public void Save()
         {
             _context.SaveChanges();
+        }
+
+        public bool Exists(string title)
+        {
+            throw new NotImplementedException();
         }
     }
 }

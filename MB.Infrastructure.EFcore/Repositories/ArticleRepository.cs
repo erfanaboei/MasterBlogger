@@ -50,7 +50,7 @@ namespace MB.Infrastructure.EFcore.Repositories
 
         public bool Exists(string title)
         {
-            throw new NotImplementedException();
+            return _context.Articles.Any(x => x.Title == title);
         }
     }
 }

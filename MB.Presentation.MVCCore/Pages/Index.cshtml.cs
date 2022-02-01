@@ -5,21 +5,23 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MB.Infrastructure.Query.Article;
 
 namespace MB.Presentation.MVCCore.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        public List<ArticleQueryView> Articles { get; set; }
+        private readonly IArticleQuery _articleQuery;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(IArticleQuery articleQuery)
         {
-            _logger = logger;
+            _articleQuery = articleQuery;
         }
 
         public void OnGet()
         {
-
+            Articles = _articleQuery.GetArticles();
         }
     }
 }

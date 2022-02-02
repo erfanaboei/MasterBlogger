@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MB.Infrastructure.Query.Article;
+using MB.Infrastructure.Query;
 
 namespace MB.Presentation.MVCCore.Pages
 {

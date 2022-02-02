@@ -1,13 +1,9 @@
 ﻿using System.Collections.Generic;
+using _01_Framework.Infrastructure;
 
 namespace MB.Domain.ArticleCategoryAgg
 {
-    public interface IArticleCategoryRepository
+    public interface IArticleCategoryRepository : IBaseRepository<long , ArticleCategory>
     {
-        List<ArticleCategory> GetAll();
-        ArticleCategory Get(long id);
-        void CreateAndSave(ArticleCategory entity);
-        void Save();
-        bool Exists(string title);
     }
 }

@@ -2,10 +2,12 @@ C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrast
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.Query.dll
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\ref\MB.Infrastructure.Query.dll
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.Query.pdb
+C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\01_Framework.dll
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Application.Contracts.dll
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Domain.dll
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.EFcore.dll
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Infrastructure.EFcore.pdb
+C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\01_Framework.pdb
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Application.Contracts.pdb
 C:\Application\MasterBlogger\MB.Infrastructure.Query\bin\Debug\net5.0\MB.Domain.pdb
 C:\Application\MasterBlogger\MB.Infrastructure.Query\obj\Debug\net5.0\MB.Infrastructure.Query.csproj.AssemblyReference.cache

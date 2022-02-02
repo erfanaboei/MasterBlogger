@@ -1,4 +1,5 @@
 ﻿using System;
+using _01_Framework.Infrastructure;
 using MB.Application;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
@@ -10,7 +11,7 @@ using MB.Domain.ArticleCategoryAgg.Services;
 using MB.Domain.CommentAgg;
 using MB.Infrastructure.EFcore;
 using MB.Infrastructure.EFcore.Repositories;
-using MB.Infrastructure.Query.Article;
+using MB.Infrastructure.Query;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -30,6 +31,8 @@ namespace MB.Infrastructure.Core
 
             services.AddTransient<ICommentApplication, CommentApplication>();
             services.AddTransient<ICommentRepository, CommentRepository>();
+
+            services.AddTransient<IUnitOfWork, UnitOfWorkEf>();
 
             services.AddTransient<IArticleQuery, ArticleQuery>();
 

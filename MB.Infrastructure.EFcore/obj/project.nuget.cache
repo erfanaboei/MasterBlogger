@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3ucXT+XRBqoChV46MwB2iQwFX4VYl6ZLsPrEIirO1XOq8iCU60R/i1qLoK5oXwS4++Q1w+bp0VSY/WkHlG1xFg==",
+  "dgSpecHash": "0Qf/JEVZhtg5v5GQTeuAf2/R7fld3UISK9Ycms6abwV/833vb8g3vHb7qlXMj0hqYtSPMseFs7hgQ919goH12Q==",
   "success": true,
   "projectFilePath": "C:\\Application\\MasterBlogger\\MB.Infrastructure.EFcore\\MB.Infrastructure.EFcore.csproj",
   "expectedPackageFiles": [

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace MB.Infrastructure.Query.Article
+namespace MB.Infrastructure.Query
 {
     public class ArticleQueryView
     {
@@ -15,5 +11,7 @@ namespace MB.Infrastructure.Query.Article
         public string CreationDate { get; set; }
         public string ArticleCategory { get; set; }
         public string ShortDescription { get; set; }
+        public long CommentsCount { get; set; }
+        public List<CommentQueryView> Comments { get; set; }
     }
 }

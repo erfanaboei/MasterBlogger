@@ -6,7 +6,7 @@ namespace MB.Domain.ArticleCategoryAgg
     {
         List<ArticleCategory> GetAll();
         ArticleCategory Get(long id);
-        void Add(ArticleCategory entity);
+        void CreateAndSave(ArticleCategory entity);
         void Save();
         bool Exists(string title);
     }

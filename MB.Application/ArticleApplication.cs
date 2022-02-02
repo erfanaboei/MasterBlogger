@@ -39,7 +39,7 @@ namespace MB.Application
         public void Create(CreateArticle command)
         {
             var article = new Article(command.Title , command.Image , command.ShortDescription , command.Content , command.ArticleCategoryId);
-            _articleRepository.Create(article);
+            _articleRepository.CreateAndSave(article);
         }
 
         public void Edit(EditArticle command)

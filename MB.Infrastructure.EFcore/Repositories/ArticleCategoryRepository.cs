@@ -27,7 +27,7 @@ namespace MB.Infrastructure.EFcore.Repositories
             return _context.ArticleCategories.FirstOrDefault(x => x.Id == id);
         }
 
-        public void Add(ArticleCategory entity)
+        public void CreateAndSave(ArticleCategory entity)
         {
             _context.ArticleCategories.Add(entity);
             Save();
